@@ -1,0 +1,20 @@
+body,html {
+    margin-top: -0.7%;
+    margin-left: 0px;
+    background-color: burlywood;
+
+}
+
+header {
+    padding: 1%;
+    
+}
+
+.texto-centrado {
+    text-align: center;
+
+}
+
+.texto-marron {
+    color: brown;
+}
