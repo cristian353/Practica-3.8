@@ -6,32 +6,29 @@ body,html {
 
 }
 
+/* Encabezado de la pagina */
 .encabezado {
     padding: 1%;
     
 }
 
-.titulo {
-    position: relative;
-    top: 50%;
-}
-
+/* Centrado de un texto  */
 .texto-centrado {
     text-align: center;
 
 }
 
+/* Color de texto marron */
 .texto-marron {
     color: brown;
 }
+
+/* Lineas de separacion*/
 
 hr {
     border-bottom: 0px;
     border-color: black;
     width: 100vw;
-}
-
-hr.principal {
     position: relative;
     bottom: 30px;
 }
