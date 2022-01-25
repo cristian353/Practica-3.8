@@ -1,8 +1,7 @@
 /* Marca donde inicia la pagina y el color de fondo que tiene */
 body,html {
-    margin-top: -0.7%;
-    margin-left: 0px;
-    background-color: burlywood;
+    margin: 0;
+    background-color: burlywood;     
     
 
 }
@@ -11,9 +10,9 @@ body,html {
 .encabezado {
     padding: 1%;
     color: brown;
-    /* background-color: chartreuse; */
+    background-color: rgb(199, 134, 50, 0.589);
     padding-bottom: 0,1%;
-    
+        
 }
 
 /* Lineas de separacion*/
@@ -22,7 +21,6 @@ body,html {
 hr {
     border-bottom: 0px;
     border-color: black;
-    width: 100vw;
 }
 
 .texto-productos {
@@ -52,20 +50,45 @@ hr {
 
 .titulo-pagina {
     text-align: center;
-    position: relative;
-    top: 20px;
 }
 
 
+section.tabla {
+    width: 100vw;
+    
+}
+
 div.productos {
-    display: inline-block;
-    width: 50vw;
-    height: 100vw;
+    float: left;
+    width: 50%;
+    height: 100%;
     text-align: center;
-    border-style:solid;
+    border-style: solid;
     border-top: 0px;
     border-bottom: 0px;
     border-left: 0px;
     border-width: thin;
-    /* background-color: wheat; */
 }
+
+div.precios {
+    float: right;
+    text-align: center;
+    width: 49.9%;
+    height: 100%;
+}
+
+footer {
+    background-color: rgba(199, 134, 50, 0.589);
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 1em 0;
+    padding-top: 1em;
+    font-weight: bold;
+
+}
+
+
+
+

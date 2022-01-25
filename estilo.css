@@ -1,7 +1,6 @@
 /* Marca donde inicia la pagina y el color de fondo que tiene */
 body,html {
-    margin-top: -0.7%;
-    margin-left: 0px;
+    margin: 0;
     background-color: burlywood;
 
 }
@@ -9,10 +8,10 @@ body,html {
 /* Encabezado de la pagina */
 .encabezado {
     padding: 1%;
-    text-align: center;
     color: brown;
+    background-color: rgb(199, 134, 50, 0.589);
     padding-bottom: 0,1%;
-    
+        
 }
 
 /* Lineas de separacion*/
@@ -30,6 +29,7 @@ hr {
 
 .carta {
     position: relative;
+    padding-top: 10px;
     left: 1%;
 }
 
@@ -48,6 +48,16 @@ hr {
 
 .titulo-pagina {
     text-align: center;
-    position: relative;
-    top: 10px;
+}
+
+footer {
+    background-color: rgba(199, 134, 50, 0.589);
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 1em 0;
+    padding-top: 1em;
+    font-weight: bold;
+
 }
