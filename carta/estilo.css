@@ -3,6 +3,7 @@ body,html {
     margin-top: -0.7%;
     margin-left: 0px;
     background-color: burlywood;
+    
 
 }
 
@@ -49,11 +50,25 @@ hr {
 .contacto {
     display: inline;
     position: relative;
-    right: -70%;
-    bottom: -200px;
-}
-
-span.precio {
-    color: black;
+    right: -70%; border-bottom: 0px;
     font-style: italic;
 }
+
+.titulo {
+    position: relative;
+    top: -15px;
+
+}
+
+.productos {
+    display: inline-block;
+    width: 50vw;
+    height: 100vw;
+    text-align: center;
+    border-style:solid;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-width: thin;
+    /* background-color: wheat; */
+} 
