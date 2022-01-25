@@ -11,18 +11,13 @@ body,html {
 .encabezado {
     padding: 1%;
     color: brown;
+    /* background-color: chartreuse; */
+    padding-bottom: 0,1%;
     
 }
 
 /* Lineas de separacion*/
 
-hr.principal {
-    border-bottom: 0px;
-    border-color: black;
-    width: 100vw;
-    position: relative;
-    top: 26px;
-}
 
 hr {
     border-bottom: 0px;
@@ -58,7 +53,7 @@ hr {
 .titulo-pagina {
     text-align: center;
     position: relative;
-    top: 30px;
+    top: 20px;
 }
 
 
@@ -73,12 +68,4 @@ div.productos {
     border-left: 0px;
     border-width: thin;
     /* background-color: wheat; */
-}
-
-footer {
-    width: 100vw;
-    background-color: wheat;
-    width: 100%;
-    height: calc(300px - 30px);
-    
 }
