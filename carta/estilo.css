@@ -10,7 +10,6 @@ body,html {
 /* Encabezado de la pagina */
 .encabezado {
     padding: 1%;
-    text-align: center;
     color: brown;
     
 }
@@ -22,7 +21,7 @@ hr.principal {
     border-color: black;
     width: 100vw;
     position: relative;
-    bottom: 30px;
+    top: 26px;
 }
 
 hr {
@@ -31,8 +30,10 @@ hr {
     width: 100vw;
 }
 
-.texto-marron {
+.texto-productos {
     color: brown;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 
@@ -54,13 +55,14 @@ hr {
     font-style: italic;
 }
 
-.titulo {
+.titulo-pagina {
+    text-align: center;
     position: relative;
-    top: -15px;
-
+    top: 30px;
 }
 
-.productos {
+
+div.productos {
     display: inline-block;
     width: 50vw;
     height: 100vw;
@@ -71,4 +73,12 @@ hr {
     border-left: 0px;
     border-width: thin;
     /* background-color: wheat; */
-} 
+}
+
+footer {
+    width: 100vw;
+    background-color: wheat;
+    width: 100%;
+    height: calc(300px - 30px);
+    
+}
