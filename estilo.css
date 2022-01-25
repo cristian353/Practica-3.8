@@ -32,3 +32,25 @@ hr {
     position: relative;
     bottom: 30px;
 }
+
+a {
+    position: relative;
+    left: -10px;
+}
+.carta {
+    position: relative;
+    left: 1%;
+}
+
+.cafe {
+    display: inline;
+    position: relative;
+    left: 40%;
+}
+
+.contacto {
+    display: inline;
+    position: relative;
+    right: -70%;
+    bottom: -200px;
+}
