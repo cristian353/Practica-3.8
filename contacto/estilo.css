@@ -1,0 +1,68 @@
+/* Marca donde inicia la pagina y el color de fondo que tiene */
+body,html {
+    margin: 0;
+    background-color: burlywood;
+
+}
+
+/* Encabezado de la pagina */
+.encabezado {
+    padding: 1%;
+    color: brown;
+    background-color: rgb(199, 134, 50, 0.589);
+    padding-bottom: 0,1%;
+        
+}
+
+/* Lineas de separacion*/
+
+hr {
+    border-bottom: 0px;
+    border-color: black;
+    width: 100vw;
+}
+
+.texto-marron {
+    color: brown;
+}
+
+
+.carta {
+    position: relative;
+    padding-top: 10px;
+    left: 1%;
+}
+
+.cafe {
+    display: inline;
+    position: relative;
+    left: 40%;
+}
+
+.contacto {
+    display: inline;
+    position: relative;
+    right: -70%;
+    bottom: -200px;
+}
+
+.titulo-pagina {
+    text-align: center;
+    color: brown;
+}
+
+footer {
+    background-color: rgba(199, 134, 50, 0.589);
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 1em 0;
+    padding-top: 0.5em;
+    font-weight: bold;
+
+}
+
+.cursiva {
+    font-style: italic;
+}
