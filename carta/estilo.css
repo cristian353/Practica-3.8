@@ -92,5 +92,17 @@ footer {
     font-style: italic;
 }
 
+div.menu {
+    color: brown;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 20px;
+    
+}
+
+h2.titulo {
+    text-align: center;
+}
+
 
 
